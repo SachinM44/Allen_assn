@@ -80,16 +80,6 @@ npm run test:debug
 npm run show-report
 ```
 
-## Project Structure
-
-```
-Allen/
-├── tests/
-│   └── price-comparison.spec.ts    # Main test file
-├── playwright.config.ts            # Playwright configuration
-├── tsconfig.json                   # TypeScript configuration
-├── package.json                    # Project dependencies
-└── README.md                       # This file
 ```
 
 ## Configuration
@@ -157,30 +147,3 @@ The test includes comprehensive error handling:
 - Element visibility checks
 - Price parsing validation
 - Detailed error messages with actual vs expected values
-
-## CI/CD Ready
-
-The project is configured for continuous integration with:
-- Retry logic for flaky tests
-- HTML report generation
-- Trace collection on failures
-- Screenshot capture for debugging
-
-## Notes
-
-- Tests run in Chromium browser by default
-- Selectors are designed to handle dynamic content
-- Price comparison logic can be easily modified
-- Additional assertions can be added for more robust testing
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run tests to ensure they pass
-5. Submit a pull request
-
-## License
-
-This project is for educational/assignment purposes.
